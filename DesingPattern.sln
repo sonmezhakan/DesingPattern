@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SingletonDesignPattern", "SingletonDesignPattern", "{4CD0225B-48CE-44EB-95DE-2D6F81E92ACE}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethodDesingPattern", "FactoryMethodDesingPattern", "{9CCB20EA-F9A4-4C30-9B97-53245180D21F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactoryDesingPattern", "AbstractFactoryDesingPattern", "{C4EE78D9-F575-4EF8-A9C4-AB2D61D50154}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalDesingPattern", "CreationalDesingPattern", "{3A46FE2D-DDD2-440F-A37C-AFCDD54F164F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CA_AbstractFactory", "CreationalDesingPattern\AbstractFactoryDesingPattern\CA_AbstractFactory\CA_AbstractFactory.csproj", "{B0E5C23E-DFFF-4951-A3C3-3D23CFA06CB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CA_FactoryMethod", "CreationalDesingPattern\FactoryMethodDesingPattern\CA_FactoryMethod\CA_FactoryMethod.csproj", "{B23D66AF-589C-4695-96CA-216F883102EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CA_Singleton", "CreationalDesingPattern\SingletionDesignPattern\CA_Singleton\CA_Singleton.csproj", "{93BF10DB-D180-405C-BBBD-DADC7511C0EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0E5C23E-DFFF-4951-A3C3-3D23CFA06CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E5C23E-DFFF-4951-A3C3-3D23CFA06CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E5C23E-DFFF-4951-A3C3-3D23CFA06CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E5C23E-DFFF-4951-A3C3-3D23CFA06CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B23D66AF-589C-4695-96CA-216F883102EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23D66AF-589C-4695-96CA-216F883102EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23D66AF-589C-4695-96CA-216F883102EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B23D66AF-589C-4695-96CA-216F883102EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93BF10DB-D180-405C-BBBD-DADC7511C0EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93BF10DB-D180-405C-BBBD-DADC7511C0EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93BF10DB-D180-405C-BBBD-DADC7511C0EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93BF10DB-D180-405C-BBBD-DADC7511C0EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4CD0225B-48CE-44EB-95DE-2D6F81E92ACE} = {3A46FE2D-DDD2-440F-A37C-AFCDD54F164F}
+		{9CCB20EA-F9A4-4C30-9B97-53245180D21F} = {3A46FE2D-DDD2-440F-A37C-AFCDD54F164F}
+		{C4EE78D9-F575-4EF8-A9C4-AB2D61D50154} = {3A46FE2D-DDD2-440F-A37C-AFCDD54F164F}
+		{B0E5C23E-DFFF-4951-A3C3-3D23CFA06CB3} = {C4EE78D9-F575-4EF8-A9C4-AB2D61D50154}
+		{B23D66AF-589C-4695-96CA-216F883102EA} = {9CCB20EA-F9A4-4C30-9B97-53245180D21F}
+		{93BF10DB-D180-405C-BBBD-DADC7511C0EA} = {4CD0225B-48CE-44EB-95DE-2D6F81E92ACE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FF2A4C5-D545-4145-8323-BAC2FDE4E850}
+	EndGlobalSection
+EndGlobal
