@@ -1,15 +1,15 @@
 # Singleton Desing Pattern
-- Programlama esnasında classların instancenı alıp defalarca kullanmak zorunda kalıyoruz.Ya da aynı anda birden fazla kullanıcı 
-tarafından aynı nesneye talepte bulunuyorsa program aynı nesneyi defalarca bellekte tutacak şekilde oluşturur. Bu durumda 
-uygulama performans açıcısında belliği oldukça yorar ve sağlık bir çalışma yöntemi olmaz. Singleton Desing Pattern ise nesneye
-oluşan talep doğrultusunda bir defa instance alıp bellekte tutar. Aynı nesnelere tekrardan talep olması durumdan bellekte oluşturulmuş
-instance kullanıcıya sunulur. Bu sayede program performans açısından oldukça verimli çalışır.
+- Programlama esnasÄ±nda classlarÄ±n instancenÄ± defalarca almak zorunda kalÄ±yoruz. Ya da aynÄ± anda birden fazla kullanÄ±cÄ± 
+tarafÄ±ndan aynÄ± nesneye talepte bulunuyorsa program aynÄ± nesneyi defalarca bellekte tutacak ÅŸekilde oluÅŸturur. Bu durumda 
+uygulama performans aÃ§Ä±sÄ±ndan belliÄŸi oldukÃ§a yorar ve saÄŸlÄ±k bir Ã§alÄ±ÅŸma yÃ¶ntemi olmaz. Singleton Desing Pattern ise nesneye
+oluÅŸan talep doÄŸrultusunda bir defa instance alÄ±p bellekte tutar. AynÄ± nesnelere tekrardan talep olmasÄ± durumdan bellekte oluÅŸturulmuÅŸ
+instance kullanÄ±cÄ±ya sunulur. Bu sayede program performans aÃ§Ä±sÄ±ndan oldukÃ§a verimli Ã§alÄ±ÅŸÄ±r.
 
 # Factory Method Desing Pattern
-- Nesne oluşturma işlemini bir alt sınıfa devretmek için kullanılan bir desendir. Bu desen, bir nesne oluşturma işlemini alt sınıflara 
-bırakarak, istemci kodunun hangi alt sınıfın örneğini oluşturacağına karar vermesine olanak tanır. Bu, kodun daha esnek, genişletilebilir 
-ve bakımı daha kolay hale gelmesine yardımcı olabilir.
+- Nesne oluÅŸturma iÅŸlemini bir alt sÄ±nÄ±fa devretmek iÃ§in kullanÄ±lan bir desendir. Bu desen, bir nesne oluÅŸturma iÅŸlemini alt sÄ±nÄ±flara 
+bÄ±rakarak, istemci kodunun hangi alt sÄ±nÄ±fÄ±n Ã¶rneÄŸini oluÅŸturacaÄŸÄ±na karar vermesine olanak tanÄ±r. Bu, kodun daha esnek, geniÅŸletilebilir 
+ve bakÄ±mÄ± daha kolay hale gelmesine yardÄ±mcÄ± olabilir.
 
 # Abstract Factory Desing Pattern
-- Bir nesne grubunun birlikte çalışabilir ve birbirlieriyle uyumlu olması gereken durumlarda kullanılan desendir. Bu desen, 
-bu nesnelerin yaratılma sürecini soyut bir fabrika arayüzü üzerinden gerçekleştirir.
+- Bir nesne grubunun birlikte Ã§alÄ±ÅŸabilir ve birbirlieriyle uyumlu olmasÄ± gereken durumlarda kullanÄ±lan desendir. Bu desen, 
+bu nesnelerin yaratÄ±lma sÃ¼recini soyut bir fabrika arayÃ¼zÃ¼ Ã¼zerinden gerÃ§ekleÅŸtirir.
